@@ -1,0 +1,612 @@
+/*header*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main{
+    padding:0%
+  }
+
+  .header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+  }
+
+  .heading{
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 8px;
+    font-size:large;
+  }
+  
+  .signup-signin {
+    color: #fff;
+    margin-left: 1000px;
+  }
+  
+  .signup-signin a {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  nav {
+    background-color: #16450e;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+  
+  }
+
+  .cart {
+    margin-left: auto;
+  }
+  .cart {
+    float: right;
+  }
+  
+  .cart img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px; 
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .search-bar input[type="text"] {
+    width: 550px; 
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .search-bar button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #16450e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .search-bar button[type="submit"]:hover {
+    background-color: #0f2f06;
+  }
+
+
+
+   /*centered headings*/
+   .centered{
+    text-align: center;
+  }
+  
+
+
+  /*Order button*/
+  #order {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .order-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .order-link:hover {
+    background-color: #45a049;
+  }
+
+
+
+  /*footer*/
+  .footer {
+    background-color: #011304;
+    color: #fff;
+    padding: 20px 0;
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons, .contact-info, .quick-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li, .contact-info li, .quick-links li {
+    margin-bottom: 5px;
+  }
+  
+  .social-icons img, .contact-info img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .quick-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .quick-links a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  /*home page*/
+  .banner img {
+    padding-top: 10px;
+    width: 100%;
+    max-height: 550px; 
+    height: auto;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-text p {
+    font-size: 18px;
+  }
+
+  .banner-points {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.banner-points .point {
+    margin: 0 10px; /* Adjust the margin as needed */
+    color: #000000;
+}
+
+
+  .category-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1300px;
+    text-decoration: none;
+  }
+
+  .category-box {
+    text-align: center;
+    width: 30%; 
+    margin-right: 20px;
+   }
+   .category-list {
+    display: flex;
+    list-style-type: decimal; /* Remove default list styles */
+}
+
+  
+  .category-box img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 2px;
+  }
+  
+.category-name:hover {
+  
+  color:#5a9b4e;
+}
+  
+.categories {
+    text-align: center;
+    
+   
+  }
+.categories div a{
+  text-decoration: none;
+  color: #000;
+ 
+ 
+  } 
+  .categories h3 {
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;
+    text-transform: uppercase; 
+    margin-bottom: 10px;
+    border: 8px solid #011304; 
+    padding: 5px 10px; 
+    background-color: #000000;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .delivery-info,
+  .loyalty-registration {
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    position: relative; 
+  }
+
+  
+  .loyalty-registration img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+   
+   .loyalty-btn {
+    padding: 5px 10px; 
+    background-color: #16450e;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: absolute; 
+    bottom: 10px; 
+    right: 50px;  
+   }
+
+  
+  .loyalty-btn:hover {
+    background-color: #0f2f06;
+  }
+
+  .h1{
+    font-style: italic;
+  }
+
+
+
+/*About us page*/
+.branches {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.branch {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.branch h2 {
+  color: #4CAF50;
+  padding-top: 0%;
+}
+
+.branch img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding-left: 240px;
+}
+
+.branch text{
+  padding-left: 50px;
+}
+
+.map {
+  margin-top: 10px;
+}
+
+#services {
+  margin-top: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tfoot {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+tfoot td {
+  padding: 10px;
+}
+
+/* AboutUsPage - maps*/
+.branch .map {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+
+
+/*dairyProductspage*/
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-container p {
+  margin: 10px 0 0 0;
+}
+
+#venues {
+  margin-bottom: 20px;
+}
+
+#venues .venue {
+  margin-bottom: 15px;
+}
+
+#venues h3 {
+  color: #4CAF50;
+}
+
+
+
+/*vegetablesPage*/
+
+.venues {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.venue {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.venue h2 {
+  margin-top: 0;
+  color: #4CAF50;
+  text-align: center;
+}
+
+.vegetable-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.vegetable {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vegetable img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+/*Add to cart button*/
+
+.add-to-cart-button {
+  background-color: #4CAF50; 
+  border:none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #45a049;
+}
+
+
+
+/*Cosmetics & skincare products page*/
+
+table, th, td {
+  color: #000;
+  border: 5px solid black;  
+  padding: 8px; 
+}
+
+table {
+  width: 100%;  
+  margin-top: 20px;
+}
+
+th {
+  background-color:white;
+}
+
+td {
+  text-align: center;  
+}
+
+
+.h3{
+  text-align: center;
+}
+
+
+/*order page*/
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color:#000;
+  border-radius: 5px;
+}
+
+
+form {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*loyalty registration Page*/
+
+.loyalty-form-container {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.benefits {
+  margin-top: 20px;
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.scheme {
+  margin-bottom: 15px;
+}
+
+.scheme h3 {
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.scheme ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
